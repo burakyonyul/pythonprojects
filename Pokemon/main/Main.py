@@ -7,7 +7,7 @@ dragonType = Type("dragon", ("water"), ("ice"))
 physicalType = Type("physical", ("water"), ("ice"))
 
 fireblast = Skill("fireblast", fireType, 15)
-skyattack = Skill("skyattack", airType, 100)
+skyattack = Skill("skyattack", airType, 10)
 dragonbreath = Skill("dragonbreath", airType, 18)
 hydrocannon = Skill("hydrocannon", waterType, 20)
 skullbash = Skill("skullbash", physicalType, 24)
